@@ -1,0 +1,110 @@
+
+        @font-face { font-family: 'PFStardust'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff'); font-weight: normal; font-style: normal; }
+        body{ 
+            font-family :'PFStardust','나눔고딕', sans-serif;
+            line-height: 120%;
+            background-color: #252436;
+            align-items: center;
+            align-content: center;
+        }
+    #pc{
+        display: block;
+
+    }
+#mobile{
+    display:block;
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+#alterimg
+    { max-width: 100%; height: auto; }
+
+        #hellinegg{
+            background-repeat: no-repeat;    
+            text-align: center;
+            vertical-align: middle;
+            align-items: center;
+            align-content: center;
+            align-self: center;
+            
+        }
+        #bottom{
+            width: 740px;
+            margin:auto;
+            text-align: center;
+            font-family :'PFStardust','나눔고딕', sans-serif;
+        }
+        #top{
+            width: 740px;
+            margin:auto;
+            text-align: center;
+            font-family :'PFStardust','나눔고딕', sans-serif;
+        }
+        #inputbutton{
+        width:288;
+        height:64;
+        position: relative;
+        opacity: 0; /*0으로 전환할것*/
+        }
+        .topcard{
+            background-image: url("defaultbg.png");
+            background-repeat: no-repeat;  
+        }
+        .arrowbt{
+            width:20px;
+            height:27px;
+            margin=0;
+            background-color: transparent;
+            /*float:right;
+            background: url("framebutton2.png")no-repeat;
+           /*/border:none;
+            outline: none;
+            
+        }
+        .inputBlank{
+            font-size: 24px;
+            font-family:'PFStardust';
+            font-style: normal;
+            color:white;
+            background-color:transparent;
+            border: 0px;
+            outline: none;
+        }
+        #characterName{
+            width:360px;
+            height:20px;
+        }
+        #planetTitle{
+            width:300px;
+            height:20px;
+        }
+        #stateMessage{
+            width:300px;
+            height:20px;}
+        #tall{
+            width:90px;
+            height:20px;
+        }
+        #favoritColor{
+            width:130px;
+            height:20px;
+        }
+        .submitBt{
+            width:288px;
+            height:64px;
+            border: 0px;
+            outline: none;
+            background-color: transparent;
+        }
+        .textValue{
+            color:white;
+            font-size: 18px;
+            height:10px;
+            padding:0px;
+            margin:0px;
+            vertical-align: top;
+        }
